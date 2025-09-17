@@ -1,24 +1,5 @@
 # Marble roulette
 
-This is a lucky draw by dropping marbles.
+@lazygyu 님의 마블 룰렛인데, 이벤트용으로 잠깐만 수정해보았습니다...
 
-[Demo]( https://lazygyu.github.io/roulette )
-
-# Requirements
-
-- Typescript
-- Parcel
-- box2d-wasm
-
-# Development
-
-```shell
-> yarn
-> yarn dev
-```
-
-# Build
-
-```shell
-> yarn build
-```
+2주 뒤 삭제 예정
