@@ -1,0 +1,28 @@
+{
+  "name": "roulette",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/packager-raw-url": "2.15.4",
+    "@parcel/transformer-webmanifest": "2.15.4",
+    "eslint": "^9.15.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "parcel": "^2.15.4",
+    "parcel-reporter-static-files-copy": "^1.5.3",
+    "path-browserify": "^1.0.0",
+    "prettier": "^3.3.3",
+    "process": "^0.11.10",
+    "svgo": "^3",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.15.0"
+  },
+  "scripts": {
+    "lint": "eslint --fix src/**/*.ts",
+    "dev": "parcel index.html --port 12345",
+    "build": "parcel build index.html --public-url /roulette/"
+  },
+  "dependencies": {
+    "box2d-wasm": "^7.0.0"
+  }
+}
